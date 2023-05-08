@@ -3,7 +3,7 @@ import { WithChildren } from '@/types'
 import { cn } from '@/lib/utils'
 
 interface DefaultPageProps extends WithChildren {
-  className: string
+  className?: string
 }
 
 export const DefaultPage: React.FC<DefaultPageProps> = ({ children, className }) => {

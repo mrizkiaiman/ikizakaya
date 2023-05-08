@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Miso Ramen",
+    "price": 5,
+    "rating": 4,
+    "reviewCount": 8,
+    "img": "/illustrations/special-offers/ramen.webp",
+    "slug": "miso-ramen"
+  },
+  {
+    "name": "Kobe Beef",
+    "price": 200,
+    "rating": 5,
+    "reviewCount": 321,
+    "desc": "Excellent flavor for your preference with aromatic, spicy, honeyed sugary",
+    "img": "/illustrations/special-offers/kobe-beef.webp",
+    "slug": "kobe-beef",
+    "featured": true
+  },
+  {
+    "name": "Sushi Roll",
+    "price": 10,
+    "rating": 4,
+    "reviewCount": 17,
+    "img": "/illustrations/special-offers/sushi-roll.webp",
+    "slug": "sushi-roll"
+  }
+]
