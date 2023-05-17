@@ -6,16 +6,16 @@ export const Intro = () => {
     <DefaultPage className="flex items-center pl-16 pr-0 justify-between h-[calc(100vh-96px)]">
       <section className="w-6/12 flex flex-col h-full py-24">
         <div className="flex flex-col gap-6">
-          <h1 className="text-8xl font-extrabold tracking-tighter text-black-gradient">Delicious. Convenient. Affordable.</h1>
+          <h1 className="text-8xl font-extrabold tracking-tightest text-black-gradient">Delicious. Convenient. Affordable.</h1>
           <div className="flex flex-col gap-1">
             <p className="font-extralight text-2xl">Indulge in a culinary adventure at our one-of-a-kind venue.</p>
             <p className="font-extralight text-2xl">Discover new and exciting flavors that will tantalize your taste.</p>
           </div>
         </div>
         <div className="flex items-center mt-12 gap-8">
-          <div className="rounded-lg px-7 py-4 bg-orange-400">
+          <button className="rounded-lg px-7 py-4 bg-orange-400">
             <p className="font-extrabold text-tight text-xl text-white">Order Now</p>
-          </div>
+          </button>
           <p className="font-extrabold tracking-[-0.08rem] text-2xl text-main-gradient">Explore the menu</p>
         </div>
       </section>
