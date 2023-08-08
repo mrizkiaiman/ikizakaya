@@ -39,9 +39,9 @@ export const Intro = () => {
           </div>
         </div>
         <div className="flex items-center mt-12 gap-8">
-          <div className="rounded-lg px-7 py-4 bg-orange-400">
+          <button className="rounded-lg px-7 py-4 bg-orange-400">
             <p className="font-extrabold text-tight text-xl text-white">Order Now</p>
-          </div>
+          </button>
           <p className="font-extrabold tracking-[-0.08rem] text-2xl text-main-gradient">Explore the menu</p>
         </div>
         <div className="mt-40 w-3/4 h-24 bg-gray-100 rounded-lg flex items-center justify-center">

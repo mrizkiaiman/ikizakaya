@@ -7,5 +7,5 @@ interface DefaultPageProps extends WithChildren {
 }
 
 export const DefaultPage: React.FC<DefaultPageProps> = ({ children, className }) => {
-  return <main className={cn('pr-16 h-screen', className)}>{children}</main>
+  return <main className={cn('px-16 h-screen', className)}>{children}</main>
 }
