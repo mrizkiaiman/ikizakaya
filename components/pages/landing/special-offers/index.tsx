@@ -14,7 +14,7 @@ export const SpecialOffers = () => {
           <p className="font-thin text-2xl">Best cooks and best delivery guys all at your service. Hot tasty </p>
           <p className="font-thin text-2xl">food will reach you in 60 minutes.</p>
         </div>
-        <div className="flex w-full flex-wrap items-center justify-center gap-12 mt-16">
+        <div className="flex w-full flex-wrap items-center justify-center gap-16 mt-16">
           {ProductList.map((product) => (
             <ProductSpecialOffers
               key={product.name}
