@@ -1,7 +1,7 @@
 import productList from '@/data/special-offers.json'
 
 import { DefaultPage } from '@/components/layouts/default'
-import { ProductSpecialOffers } from '@/components/pages/landing/special-offers/product'
+import { ProductSpecialOffers } from '@/components/sections/landing/special-offers/product'
 
 export const SpecialOffers = () => {
   return (
